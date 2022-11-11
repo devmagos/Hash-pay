@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.dash-section {
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    text-align: center;
+    /* Neutral colour/100 */
+    color: #47454C;
+    background: #47454C;
+}
+
+.nav-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    /* Primary colour/main */
+    background: #2574F5;
+    /* shadow/base */
+    box-shadow: 0px 4.2223px 8.4446px rgba(0, 0, 0, 0.06), 0px 4.2223px 12.6669px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.easy {
+    font-size: 56px;
+    line-height: 58px;
+}
+
+.hash {
+    font-size: 22px;
+    line-height: 40px;
+    width: 731px;
+    height: 120px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.clip-mobile {
+    /* opacity: 0.6; */
+}
+.clip {
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    z-index: -1;
+}
+
+.why-qualities {
+    background: #E9F1FF4D;
+    padding: 30px 50px;
+}
+
+.hash-reliable {
+    padding: 40px 40px 0px 40px;
+}
+
+.hash-qualities {
+    padding: 50px;
+}
+
+.hash-text {
+    font-size: 28px;
+    color: #2574F5;
+}
+
+.why-hash {
+    text-align: center;    
+}
+
+.hash-para {
+    font-size: 18px;
+}
+
+.crypto-section {
+    padding: 90px 0px 0px 100px;
+    background: #C7D2F44D;
+}
+
+.crypto-section-padding {
+    padding: 0px 20px;
+}
+.crypto-margin {
+    padding-right: 20px;
+}
+
+.crypto-h {
+    font-size: 2.5rem;
+    line-height: 40px;
+}
+
+.crypto-para {
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.img-crypto-mobile {
+}
+
+.img-crypto {
+    padding-right: 30px;
+    position: absolute;
+    right: 80px;
+    z-index: -1;
+}
+
+.news-section-bg {
+    background: #fff;
+    padding: 70px 0px;
+}
+
+.news-section {
+    background: #C7D2F44D;
+    text-align: center;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+.news-text {
+}
+
+.news-search {
+    margin-top: 60px;
+}
+
+.bg-input {
+    border: none;
+}
+
+.div-bg-search {
+    border-radius: 5px;
+    margin: 0 50px;
+    padding: 8px;
+}
+
+.footer-color {
+    background-color: #001D4B;
+    color: #fff;
+    padding: 30px 50px;
+    list-style-type: none;
+}
+
+.list, .list li a{
+    list-style-type: none;
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.about-us {
+    background: #C7D2F44D;
+    padding: 40px;
+    color: #001D4B;
+}
+
+.whoweare {
+    padding: 80px 30px;
+}
+
+.we-are {
+
+}
+
+.happy-text {
+    margin-left: 50px;
+    padding: 50px 80px;
+}
+
+.mission {
+    text-align: center;
+    margin: 50px auto 300px auto;
+}
+
+.weare-section {
+
+}
+
+
+.list, .list li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-color {
+    background-color: #001D4B;
+    color: #fff;
+    padding: 30px 50px;
+    list-style-type: none;
+}
+
+.active {
+    padding: 0px 5px;
+    border-radius: 5px;
+    border: 1px solid #C7D2F44D;
+    background: #C7D2F44D;
+}

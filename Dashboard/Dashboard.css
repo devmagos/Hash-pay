@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-color {
+    background: #2574F5;
+}
+
+.verify-text {
+    background: #C7D2F44D;
+    color: #001D4B;
+    margin-bottom: 20px;
+    padding: 5px 80px;
+    border-radius: 5px;
+}
+
+.wallet-text {
+    background: #C7D2F44D;
+    color: #001D4B;
+    margin-bottom: 20px;
+    padding: 50px 80px;
+    border-radius: 5px;
+}
+
+
+.list, .list li a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-color {
+    background-color: #001D4B;
+    color: #fff;
+    padding: 30px 50px;
+    list-style-type: none;
+}
+
+.active {
+    padding: 0px 5px;
+    border-radius: 5px;
+    border: 1px solid #C7D2F44D;
+    background: #C7D2F44D;
+}
