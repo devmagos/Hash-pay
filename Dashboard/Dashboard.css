@@ -63,6 +63,20 @@
     margin: 15px;
 }
 
+.card-margin {
+    margin-left: 25px;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 90px;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 65px;
+}
+
 .card-body-sell {
     background: #FFD8C2;
 }
