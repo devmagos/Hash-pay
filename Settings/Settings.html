@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Settings/Settings.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="Dashboard.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <title>Dashboard</title>
+    <title>Settings</title>
 </head>
 <body>
     <div class="container-fluid">
@@ -77,13 +77,14 @@
 
     <div class="container-fluid">
       
-
+      <div class="row">
       <!-- LEFT COLUMN SECTION START -->
-      <div class="col-md-10 left-col">
+      <div class="col-md-8 left-col">
      
       <!-- VERIFY KYC SECTION -->
-          <div class="row verify-text">
-            <div class="col-md-11">
+          <div class="verify-text">
+      <div class="row">
+        <div class="col-md-11">
               <h4>Verify KYC</h4>
               <p>we need some information to complete your account verification</p>
             </div>
@@ -91,170 +92,94 @@
               <i class='fa fa-arrow-right'></i>
             </div>
         </div>
-
-         <!-- WALLET BALANCE SECTION -->
-         <div class="row wallet-text">
-          <div class="d-flex justify-content-center">
-         <div class="row wallet-bal">
-          <div class="row">
-            <h4>Wallet balance</h4>
-          </div>
-          <div class="row">
-            <h1>$0.0 </h1>
-          </div>
-          </div>
-        </div>
-        </div>
-
-       <!-- CARDS SECTION -->
-       <div class="row mt-5">
-       <div class="d-flex justify-content-around">
-
-         <div class="card-body card-body-sell">
-            <a href="/DashboardSell/DashboardSell.html" class="card-link">
-            <div class="card-margin">
-              <h5 class="card-title">Sell Cryptocurrency</h5>
-              <p class="card-text">Sell crypto with your local currency</p>
-            </div>
-          </a>
-          </div>
-
-        <div class="card-body card-body-buy">
-        <a href="/DashboardBuy/DashboardBuy.html" class="card-link">
-              <div class="card-margin">
-                <h5 class="card-title">Buy Cryptocurrency</h5>
-                <p class="card-text">Buy crypto to your local currency</p>
-              </div>
-            </a>
-            </div>
-
-        <div class="card-body card-body-tickets">
-        <a href="/DashboardTickets/DashboardTickets.html" class="card-link">
-              <div class="card-margin">
-                <h5 class="card-title">Tickets</h5>
-                <p class="card-text">Redeem  transactions </p>
-              </div>
-            </a>
-          </div>
-      </div>
-    </div>
-
-      <!-- PRICE ASSET TABLE SECTION -->
-      <div class="row mt-5">
-      <div class="row">
-        <h5>Price Asset</h5>
       </div>
 
-      <div class="row mt-3 mb-5">
-        <table class="table table-hover">
-          <thead class="bg-color">
-            <tr>
-              <th scope="col">Crypto</th>
-              <th scope="col">Number</th>
-              <th scope="col">Price (Naira)</th>
-              <th scope="col">Transaction Date</th>
-              <th scope="col">Network</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/bitcoin-o.png" alt="bitcoin"></span><span>Bitcoin</span><span class="price-sell">Sell</span></th>
-              <td>1.6 BTC</td>
-              <td>#23,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>BNB</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/bitcoin-g.png" alt="bitcoin"></span><span>Bitcoin</span><span class="price-sell">Sell</span></th>
-              <td>1.6 BTC</td>
-              <td>#34,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>smart chain</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/doge.png" alt="doge"></span><span>Doge coin</span><span class="price-buy">Buy</span></th>
-              <td>1.6 BTC</td>
-              <td>#68,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>BuSD</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/litecoin.png" alt="litecoin"></span><span>Lite coin</span><span class="price-buy">Buy</span></th>
-              <td>1.6 BTC</td>
-              <td>#34,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>BNB</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/tether.png" alt=""></span><span>Tether</span><span class="price-sell">Sell</span></th>
-              <td>1000 USD</td>
-              <td>#5,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>Ethereum</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/matic.png" alt=""></span><span>Matic</span><span class="price-buy">Buy</span></th>
-              <td>1.6 BTC</td>
-              <td>#70,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>BNB</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/etherum.png" alt=""></span><span>Ethereum</span><span class="price-sell">Sell</span></th>
-              <td>1.6 BTC</td>
-              <td>#40,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>BNB</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      </div>
-        <!-- LEFT COLUMN SECTION ENDS -->
-      </div>
-
-
-
-        <!-- RIGHT COLUMN SECTION STARTS -->
-
-        <!-- DROPDOWN SECTION STARTS-->
-      <!-- <div class=""> -->
-        <div class="col-md-1 dropdown-menu show drop-menu">
-            <a class="dropdown-item active" href="/Dashboard/Dashboard.html">Profile</a>
-            <a class="dropdown-item" href="/Settings/Settings.html">Settings</a>
-            <a class="dropdown-item" href="/SignOut/SignOut.html">Sign Out</a>
-        </div>
-    <!-- </div> -->
+ <!-- FORM INPUTS SECTION STARTS -->
+        
+  <div class="verify-text">
+    <p>Profile details</p>
   </div>
 
-        <!-- RIGHT COLUMN SECTION ENDS -->
-      </div>
-      
+  <form>
+  <div class="input-group input-group-sm mb-3">
+    <input type="email" class="form-control" id="email" placeholder="Ologwu Samuel">      
+   </div>
+  <div class="input-group input-group-sm mb-3">
 
+        <input type="text" class="form-control" id="text" placeholder="Hashpay@gmail.com">
+   </div>
 
-      <!-- HASH PAY PAGINATION SECTION-->
-      <div class="container-fluid">
-      <div class="row mt-5 mb-5">
-        
-        <div class="row">
-          <hr>
-        </div>
-        
-        
-        
-        <!-- PAGINATION -->
-        <div class="row">
-          <div class="d-flex justify-content-end">
-            <span class="pagi-margin-item">1-2 of items</span>
-            <span class="pagi-margin-active">1</span>
-            <span class="pagi-margin">2</span>
-            <span class="pagi-margin"><i class='fa fa-angle-right'></i></span>
-          </div>
-        </div>
-        </div>
-      </div>
+  <div class="input-group input-group-sm mb-3">
 
+        <input type="text" class="form-control" id="text" placeholder="+234-0000-00-000">
+   </div>
+
+   <div class="verify-text">
+    <p>Bank Account Details</p>
+  </div>
+
+   <div class="input-group input-group-sm mb-3">
+        <input type="text" class="form-control" id="email" placeholder="Ologwu Samuel ogbonna">
+   </div>
+
+  <div class="input-group input-group-sm mb-3">
+
+        <input type="number" class="form-control" id="text" placeholder="1234566889300">
+   </div>
+
+  <div class="input-group input-group-sm mb-3">
+
+        <input type="text" class="form-control" id="text" placeholder="Kuda Bank">
+   </div>
+   
+   <div class="verify-text">
+    <p>Wallet Address</p>
+  </div>
+
+   <div class="input-group input-group-sm mb-3">
+        <input type="email" class="form-control" id="email" placeholder="santrtyr2345666566">
+   </div>
+
+  <div class="input-group input-group-sm mb-3">
+
+        <input type="text" class="form-control" id="text" placeholder="12345668ghjfjhdesdhgfhhguf89300">
+   </div>
+
+   <div class="verify-text">
+    <p>Security</p>
+  </div>
+
+   <div class="input-group input-group-sm mb-3">
+        <input type="email" class="form-control" id="email" placeholder="Password">
     </div>
+    
+  </form>
+</div>     
+
+       
+
+
+
+
+        <!-- AVATAR PROFILE SECTION -->
+    <div class="col-md-3 avatar-bg">
+        <a class="nav-link" href="../User/User.html"><i class='fa fa-user-circle' style="font-size: 150px;"></i></a>
+    </div>
+       
+        <!-- RIGHT DROPDOWN SECTION STARTS-->
+        <div class="col-md-1 dropdown-menu show drop-menu">
+          <a class="dropdown-item active" href="/Settings/Settings.html">Settings</a>
+            <a class="dropdown-item" href="/Dashboard/Dashboard.html">Profile</a>
+            <a class="dropdown-item" href="/SignOut/SignOut.html">Sign Out</a>
+        </div>
+    </div>
+
+  </div>
+        <!-- RIGHT DROPDOWN COLUMN SECTION ENDS -->
+ 
+<!-- ROW ENDS HERE -->
+</div>
+</div>
+</div>
 </body>
 </html>

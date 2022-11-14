@@ -8,6 +8,17 @@
     font-size: 16px;
 }
 
+.drop-menu {
+    position: relative;
+    top: 50px;
+    right: 20px;
+    border: none;
+}
+
+.left-col {
+    margin-left: 35px;
+}
+
 .nav-height {
     background: #2574F5;
     margin-bottom: 20px;
