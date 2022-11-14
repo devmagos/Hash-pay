@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -35,6 +34,10 @@
     text-align: center;
 }
 
+.modal-text {
+    text-align: center;
+}
+
 .arrow {
     margin-right: 0px;
     padding: 25px 0 25px 25px;
@@ -43,13 +46,6 @@
 .list, .list li a{
     list-style-type: none;
     text-decoration: none;
-}
-
-.footer-color {
-    background-color: #001D4B;
-    color: #fff;
-    padding: 30px 50px;
-    list-style-type: none;
 }
 
 .active {
@@ -68,10 +64,6 @@
     margin-left: 25px;
 }
 
-a:link {
-    color: #441D07;
-}
-
 .card-title {
     position: absolute;
     bottom: 90px;
@@ -86,31 +78,16 @@ a:link {
     background: #FFD8C2;
 }
 
-.card-body-buy {
-    background: #DDEDE8;
-}
-
-.card-body-tickets {
-    background: #FFF5D8;
+.no-transactions {
+    color: grey;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .bg-color {
     background: linear-gradient(0deg, #EBEBEB, #EBEBEB),
 linear-gradient(0deg, #EFF0F4, #EFF0F4);
-}
-
-.price-sell {
-    background: #FFD8C2;
-    border-radius: 3px;
-    margin-left: 3px;
-    padding: 3px;
-}
-
-.price-buy {
-    background: #1F5E00;
-    border-radius: 3px;
-    margin-left: 3px;
-    padding: 3px;
 }
 
 .pagi-margin-active {
@@ -127,8 +104,4 @@ linear-gradient(0deg, #EFF0F4, #EFF0F4);
 
 .pagi-margin {
     margin-left: 10px;
-}
-
-.price-icons {
-    margin-right: 10px;
 }

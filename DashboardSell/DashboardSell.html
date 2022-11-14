@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="Dashboard.css">
+    <link rel="stylesheet" href="DashboardSell.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <title>Dashboard</title>
+    <title>Dashboard Sell</title>
 </head>
 <body>
     <div class="container-fluid">
@@ -37,13 +37,15 @@
           </div>
           <!-- HASH PAY LOGO ENDS -->
 
+
+
           <!-- HASH NAVBAR LINKS BEGIN-->
 
           <div class="col-md-4"></div>
 
             <div class="col-md-4">
               <ul class="d-flex justify-content-around list">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link"href="../Dashboard/Dashboard.html">Dashboard</a>
                 </li>
                 <li class="nav-item">
@@ -96,105 +98,120 @@
         </div>
         </div>
 
+
+
+
        <!-- CARDS SECTION -->
        <div class="row mt-5">
-       <div class="d-flex justify-content-around">
+       <div class="row">
 
-         <div class="card-body card-body-sell">
-            <a href="/DashboardSell/DashboardSell.html" class="card-link">
+        <!-- MODAL SELL SECTION -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
+          <div class="card-body card-body-sell">
             <div class="card-margin">
               <h5 class="card-title">Sell Cryptocurrency</h5>
               <p class="card-text">Sell crypto with your local currency</p>
             </div>
-          </a>
           </div>
 
-        <div class="card-body card-body-buy">
-        <a href="/DashboardBuy/DashboardBuy.html" class="card-link">
-              <div class="card-margin">
-                <h5 class="card-title">Buy Cryptocurrency</h5>
-                <p class="card-text">Buy crypto to your local currency</p>
+
+        <!-- MODAL SELL SECTION -->
+   
+         </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+
+        <!-- <div class="modal-header"> -->
+            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button> -->
+
+            <!-- SELL / BUY BUTTONS MODAL SECTION -->
+        <div class="modal-body">
+
+            <div class="row">
+              <div class="col-md-12 modal-text">
+                <button type="button" class="btn btn-info btn-outline" data-dismiss="modal">Sell</button>
+             
+                <button type="button" class="btn text-secondary btn-outline">Buy</button>
               </div>
-            </a>
+            </div>
+        <!-- </div> -->
+       
+         <div class="row modal-text">
+            <div class="row">
+                <h2>0 BTC</h2>
+            </div>
+            <div class="row">
+                <p class="text-sm text-secondary">Estimate price : 1 BTC = N270000</p>
+            </div>
+          </div>
+        </div>
+
+         <div class="row modal-text">
+          <div class="row modal-footer">
+
+              <!-- MODAL DROPDOWN FIRST -->
+              <div class="row">
+                <div class="dropdown">
+                  <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="">Sell</span>
+                    <span class="">
+                    <span class="price-icons"><img src="/images/dashboard/bitcoin-o.png" alt="bitcoin"> </span><span>Bitcoin </span><span class="price-sell">Sell</span></span>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MODAL DROPDOWN SECOND -->
+            <div class="row">
+              <div class="dropdown">
+                <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Recieve in
+                  <span class="price-icons"><img src="/images/dashboard/tether.png" alt=""> </span><span>Tether </span><span class="price-sell">Sell</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
             </div>
 
-        <div class="card-body card-body-tickets">
-        <a href="/DashboardTickets/DashboardTickets.html" class="card-link">
-              <div class="card-margin">
-                <h5 class="card-title">Tickets</h5>
-                <p class="card-text">Redeem  transactions </p>
-              </div>
-            </a>
-          </div>
+            <!-- MODAL DROPDOWN THIRD -->
+            <div class="row">
+                <button type="button" class="btn btn-secondary btn-block m-2">Review and confirm</button>
+            </div>
+
+        </div>
+      </div>
       </div>
     </div>
+  </div>
 
-      <!-- PRICE ASSET TABLE SECTION -->
+
+</div>
+</div>
+      <!-- RECENT TRANSACTIONS SECTION -->
       <div class="row mt-5">
       <div class="row">
-        <h5>Price Asset</h5>
+        <h5>Recent Transactions</h5>
       </div>
 
       <div class="row mt-3 mb-5">
         <table class="table table-hover">
-          <thead class="bg-color">
-            <tr>
-              <th scope="col">Crypto</th>
-              <th scope="col">Number</th>
-              <th scope="col">Price (Naira)</th>
-              <th scope="col">Transaction Date</th>
-              <th scope="col">Network</th>
-            </tr>
-          </thead>
+          <thead class="bg-color"></thead>
           <tbody>
             <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/bitcoin-o.png" alt="bitcoin"></span><span>Bitcoin</span><span class="price-sell">Sell</span></th>
-              <td>1.6 BTC</td>
-              <td>#23,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>BNB</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/bitcoin-g.png" alt="bitcoin"></span><span>Bitcoin</span><span class="price-sell">Sell</span></th>
-              <td>1.6 BTC</td>
-              <td>#34,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>smart chain</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/doge.png" alt="doge"></span><span>Doge coin</span><span class="price-buy">Buy</span></th>
-              <td>1.6 BTC</td>
-              <td>#68,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>BuSD</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/litecoin.png" alt="litecoin"></span><span>Lite coin</span><span class="price-buy">Buy</span></th>
-              <td>1.6 BTC</td>
-              <td>#34,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>BNB</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/tether.png" alt=""></span><span>Tether</span><span class="price-sell">Sell</span></th>
-              <td>1000 USD</td>
-              <td>#5,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>Ethereum</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/matic.png" alt=""></span><span>Matic</span><span class="price-buy">Buy</span></th>
-              <td>1.6 BTC</td>
-              <td>#70,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>BNB</td>
-            </tr>
-            <tr>
-              <th scope="row"><span class="price-icons"><img src="/images/dashboard/etherum.png" alt=""></span><span>Ethereum</span><span class="price-sell">Sell</span></th>
-              <td>1.6 BTC</td>
-              <td>#40,000</td>
-              <td>27th Jun, 2022, 22:30 pm</td>
-              <td>BNB</td>
+              <h4 class="no-transactions">No Recent Transactions Found</h4>
             </tr>
           </tbody>
         </table>
@@ -202,29 +219,23 @@
 
       </div>
 
-
-
-
-
-      <!-- HASH PAY PAGINATION SECTION-->
-      <div class="row mt-5 mb-5">
-        
-        <div class="row">
-          <hr>
-        </div>
-        
-        
-        
-        <!-- PAGINATION -->
-        <div class="row">
-          <div class="d-flex justify-content-end">
-            <span class="pagi-margin-item">1-2 of items</span>
-            <span class="pagi-margin-active">1</span>
-            <span class="pagi-margin">2</span>
-            <span class="pagi-margin"><i class='fa fa-angle-right'></i></span>
-          </div>
-        </div>
-        </div>
     </div>
+
+
+
+
+     <!--Bootstrap javascript links -->
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+     crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+     crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+     crossorigin="anonymous"></script>
+
+ <!-- javascript link -->
+    <script src="DashsboardSell.js"></script>
 </body>
 </html>
