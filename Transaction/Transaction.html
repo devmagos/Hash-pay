@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="/Transaction/Transaction.html"> -->
-    <link rel="stylesheet" href="/Settings/Settings.css">
+    <link rel="stylesheet" href="/Transaction/Transaction.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Transaction</title>
@@ -80,18 +79,18 @@
       
       <div class="row">
       <!-- LEFT COLUMN SECTION START -->
-      <div class="col-md-8 left-col">
+      <div class="col-md-10 left-col">
      
       <!-- VERIFY KYC SECTION -->
-          <div class="verify-text">
+      <div class="verify-text">
       <div class="row">
         <div class="col-md-11">
               <h4>Verify KYC</h4>
               <p>we need some information to complete your account verification</p>
             </div>
-              <div class="col-md-1 d-flex justify-content-end arrow">
+        <div class="col-md-1 d-flex justify-content-end arrow">
               <i class='fa fa-arrow-right'></i>
-            </div>
+        </div>
         </div>
       </div>
 
@@ -109,24 +108,28 @@
         <button class="btn" type="button">Sell</button>
     </div>
 
+    
     <div class="">
-        <i class='fa fa-file'></i>
+      <img src="/images/transactions/🦆 date-range.svg" alt="file searching" srcset="" class="date">
+        
     </div>
-
   </div>
 
-   <!-- RECENT TRANSACTIONS SECTION -->
-   <div class="row mt-5">
-    <div class="row">
-      <h5>Recent Transactions</h5>
+
+
+   <!-- EMPTY TRANSACTIONS SECTION -->
+   <div class="row empty-transactions">
+    <div class="row file-transactions">
+      <img src="/images/transactions/file.svg" alt="file searching" srcset="" class="file">
     </div>
 
-    <div class="row mt-3 mb-5">
+    <div class="row mt-3 mb-5 no-transactions">
       <table class="table table-hover">
         <thead class="bg-color"></thead>
         <tbody>
           <tr>
-            <h4 class="no-transactions">No Recent Transactions Found</h4>
+            <h4 class="">When you start using your wallet, transactions will show here
+            </h4>
           </tr>
         </tbody>
       </table>
@@ -141,21 +144,18 @@
 
 
 
-        <!-- AVATAR PROFILE SECTION -->
-    <div class="col-md-3 avatar-bg">
-        <a class="nav-link" href="../User/User.html"><i class='fa fa-user-circle' style="font-size: 150px;"></i></a>
-    </div>
        
         <!-- RIGHT DROPDOWN SECTION STARTS-->
         <div class="col-md-1 dropdown-menu show drop-menu">
-          <a class="dropdown-item active" href="/Settings/Settings.html">Settings</a>
-            <a class="dropdown-item" href="/Dashboard/Dashboard.html">Profile</a>
+          <a class="dropdown-item active" href="/TransactionMain/TransactionMain.html">Profile</a>
+          <a class="dropdown-item" href="/TransactionDate/TransactionDate.html">Settings</a>
             <a class="dropdown-item" href="/SignOut/SignOut.html">Sign Out</a>
         </div>
     </div>
 
   </div>
         <!-- RIGHT DROPDOWN COLUMN SECTION ENDS -->
+        
  
 <!-- ROW ENDS HERE -->
 </div>

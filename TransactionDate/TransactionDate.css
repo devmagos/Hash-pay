@@ -94,11 +94,48 @@ linear-gradient(0deg, #EFF0F4, #EFF0F4);
 
 .file-transactions {
     color: grey;
-    /* margin: 0 auto; */
     align-items: center;
     text-align: center;
 }
 
 .file {
     height: 50px;
+}
+
+.birthday {
+    
+}
+
+.price-sell {
+    background: #FFD8C2;
+    border-radius: 3px;
+    margin-left: 3px;
+    padding: 3px;
+}
+
+.price-buy {
+    background: #1F5E00;
+    border-radius: 3px;
+    margin-left: 3px;
+    padding: 3px;
+}
+
+.pagi-margin-active {
+    border: 1px solid;
+    background: #0b0b7c;
+    color: #fff;
+    padding: 0 6px;
+    margin-left: 10px;
+}
+
+.pagi-margin-item {
+    margin-right: 30px;
+}
+
+.pagi-margin {
+    margin-left: 10px;
+}
+
+.price-icons {
+    margin-right: 10px;
 }
