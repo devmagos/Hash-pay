@@ -15,6 +15,10 @@
     border: none;
 }
 
+.avatar {
+    height: 30px;
+}
+
 .left-col {
     margin-left: 35px;
 }

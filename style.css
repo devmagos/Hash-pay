@@ -24,11 +24,13 @@
     align-items: center;
     padding: 16px 32px;
     gap: 10px;
-    /* Primary colour/main */
     background: #2574F5;
-    /* shadow/base */
     box-shadow: 0px 4.2223px 8.4446px rgba(0, 0, 0, 0.06), 0px 4.2223px 12.6669px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+
+.avatar {
+    height: 30px;
 }
 
 .easy {

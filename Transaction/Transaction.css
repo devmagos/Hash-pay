@@ -19,6 +19,10 @@
     margin-left: 35px;
 }
 
+.avatar {
+    height: 30px;
+}
+
 .nav-height {
     background: #2574F5;
     margin-bottom: 20px;
