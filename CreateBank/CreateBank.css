@@ -11,7 +11,7 @@
 .form-div {
     border: 0.3px solid grey;
     text-align: center;
-    padding: 60px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     background: #fff;
