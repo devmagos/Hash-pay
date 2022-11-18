@@ -26,9 +26,39 @@
     height: 50px;
 }
 
-.verify-text {
+.avatar {
+    height: 30px;
+}
+
+.buttons-kyc {
+    text-align: center;
+    width: 150px;
+    height: 35px;
+}
+
+.buttons-history {
+    width: 80px;
+}
+
+.balance-text {
     background: #C7D2F44D;
     color: #001D4B;
+    margin-bottom: 20px;
+    padding: 5px 80px;
+    border-radius: 5px;
+}
+
+span {
+    margin-left: 5px;
+}
+
+span img {
+    height: 20px;
+}
+
+.verify-text {
+    background: #C7D2F44D;
+    color: #000;
     margin-bottom: 20px;
     padding: 5px 80px;
     border-radius: 5px;
