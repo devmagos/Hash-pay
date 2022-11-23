@@ -31,6 +31,14 @@
     border-radius: 8px;
 }
 
+.logo {
+    height: 45px;
+}
+
+.logo-white {
+    height: 30px;
+}
+
 .avatar {
     height: 30px;
 }
@@ -51,14 +59,18 @@
     list-style-type: none;
 }
 
+.easy-way {
+    padding: 80px;
+}
+
 .clip-mobile {
-    /* opacity: 0.6; */
+    margin-right: 10px;
 }
 .clip {
     position: absolute;
     right: 150px;
-    top: 50px;
-    z-index: -1;
+    top: 175px;
+    z-index: 1;
 }
 
 .why-qualities {
@@ -67,7 +79,7 @@
 }
 
 .hash-reliable {
-    padding: 40px 40px 0px 40px;
+    padding: 0px 40px 0px 40px;
 }
 
 .hash-qualities {
@@ -76,73 +88,110 @@
 
 .hash-text {
     font-size: 28px;
-    color: #2574F5;
+    color: #2574F5;    
+    background: #E9F1FF4D;
+    padding: 6px;
+}
+
+.hash-para {
+    font-size: 18px;
+    padding: 5px;
 }
 
 .why-hash {
     text-align: center;    
 }
 
-.hash-para {
-    font-size: 18px;
-}
 
 .crypto-section {
-    padding: 90px 0px 0px 100px;
+    padding: 0px 0px 0px 100px;
     background: #C7D2F44D;
 }
 
 .crypto-section-padding {
-    padding: 0px 20px;
+    padding: 90px 0px 0px 100px;
 }
+
 .crypto-margin {
-    padding-right: 20px;
 }
 
 .crypto-h {
-    font-size: 2.5rem;
-    line-height: 40px;
+    font-size: 3.5rem;
+    line-height: 80px;
 }
 
 .crypto-para {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 40px;
+    margin-bottom: 40px;
 }
 
-.img-crypto-mobile {
+.crypto-btn {
+    margin-top: 5px;
 }
 
-.img-crypto {
-    padding-right: 30px;
+.img-crypto-mobile1 {
     position: absolute;
-    right: 80px;
+    padding: 124px 0px 0px 0px;
+    right: 200px;
+    z-index: 3;
+}
+
+.img-crypto-mobile2 {
+    position: absolute;
+    padding: 121px 0px 0px 0px;
+    right: 57px;
+    z-index: 2;
+}
+
+.img-crypto-icons {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
     z-index: -1;
 }
 
 .news-section-bg {
-    background: #fff;
     padding: 70px 0px;
 }
 
 .news-section {
     background: #C7D2F44D;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 50px;
 }
 
 .news-text {
 }
 
+.news-text-h {
+font-size: 2.5rem;
+}
+
+.news-text-p {
+}
+
 .news-search {
     margin-top: 60px;
 }
 
-.bg-input {
+.news-search-div {
+    border-radius: 10px;
+}
+
+.news-search-input {
+    background: #fff;
     border: none;
 }
 
-.div-bg-search {
+.news-left, .news-right {
+}
+
+.news-search-form {
     border-radius: 5px;
     margin: 0 50px;
     padding: 8px;
@@ -158,4 +207,8 @@
 .list, .list li a{
     list-style-type: none;
     text-decoration: none;
+}
+
+div ul h6, div ul li {
+    padding: 8px;
 }
