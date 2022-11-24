@@ -8,10 +8,27 @@
     font-size: 16px;
 }
 
+.logo-contact {
+    height: 40px;
+}
+
+.logo-white {
+    height: 33px;
+}
+
 .list, .list li a{
     list-style-type: none;
     text-decoration: none;
 }
+
+.contact {
+    font-weight: bolder;
+}
+
+.contact-p {
+    font-size: 12px;
+}
+
 
 .form-div {
     /* border: 1px solid grey; */
@@ -40,11 +57,40 @@
     padding: 4px 90px;
 }
 
+form #name  {
+    position: absolute;
+    top: 40%;
+    right: 12.5%;
+    font-size: 8.45px;
+}
+
+form #pwd {
+    position: absolute;
+    top: 47.3%;
+    right: 12.5%;
+    font-size: 8.45px;
+}
+
+form #msg {
+    position: absolute;
+    top: 54.7%;
+    right: 12.5%;
+    font-size: 8.45px;
+}
+
+.send {
+    opacity: 0.6;
+}
+
 .footer-color {
     background-color: #001D4B;
     color: #fff;
     padding: 30px 50px;
     list-style-type: none;
+}
+
+footer div ul h6, footer div ul li, footer div ul small {
+    margin: 15px;
 }
 
 .active {
