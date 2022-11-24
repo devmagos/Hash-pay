@@ -26,6 +26,10 @@ h1 {
     height: 33px;
 }
 
+.logo-privacy {
+    height: 40px;
+}
+
 h1, h2 {
     font-weight: bolder;
 }

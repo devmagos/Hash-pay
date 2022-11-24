@@ -11,10 +11,18 @@
 .aml {
     background: #C7D2F44D;
     text-align: center;
-    padding: 40px;
     color: #001D4B;
 
 }
+
+h1 {
+    padding-top: 35px;
+}
+
+h1, h2 {
+    font-weight: bolder;
+}
+
 
 .intro-section {
 
@@ -42,4 +50,20 @@
     border-radius: 5px;
     border: 1px solid #C7D2F44D;
     background: #C7D2F44D;
+}
+
+.logo-white {
+    height: 33px;
+}
+
+.logo-aml {
+    height: 40px;
+}
+
+.aml-img {
+    height: 130px;
+}
+
+footer div ul h6, footer div ul li, footer div ul small {
+    margin: 15px;
 }
