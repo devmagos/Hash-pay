@@ -10,10 +10,24 @@
 
 .privacy-policy {
     background: #C7D2F44D;
-    text-align: center;
-    padding: 40px;
     color: #001D4B;
 
+}
+
+h1 {
+    padding: 35px;
+}
+
+.privacy {
+    height: 130px;
+}
+
+.logo-white {
+    height: 33px;
+}
+
+h1, h2 {
+    font-weight: bolder;
 }
 
 .intro-section {
@@ -42,4 +56,8 @@
     border-radius: 5px;
     border: 1px solid #C7D2F44D;
     background: #C7D2F44D;
+}
+
+footer div ul h6, footer div ul li, footer div ul small {
+    margin: 15px;
 }
