@@ -8,14 +8,24 @@
     font-size: 16px;
 }
 
-.privacy-policy {
+.terms-service {
     background: #C7D2F44D;
     text-align: center;
-    padding: 40px;
     color: #001D4B;
 
 }
 
+h1 {
+    padding-top: 35px;
+}
+
+h1, h2 {
+    font-weight: bolder;
+}
+
+.terms-img {
+    height: 130px;
+}
 .intro-section {
 
 }
@@ -24,6 +34,13 @@
     margin-bottom: 500px;
 }
 
+.logo-white {
+    height: 33px;
+}
+
+.logo-terms {
+    height: 40px;
+}
 
 .list, .list li a{
     list-style-type: none;
@@ -42,4 +59,8 @@
     border-radius: 5px;
     border: 1px solid #C7D2F44D;
     background: #C7D2F44D;
+}
+
+footer div ul h6, footer div ul li, footer div ul small {
+    margin: 15px;
 }
