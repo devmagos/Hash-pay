@@ -10,8 +10,12 @@
 
 .about-us {
     background: #C7D2F44D;
-    padding: 40px;
     color: #001D4B;
+}
+
+.about-frame {
+    height: 350px;
+    width: 100%;
 }
 
 .whoweare {
@@ -22,9 +26,20 @@
 
 }
 
+div h3 {
+    font-size: 3rem;
+    line-height: 55px;
+    font-weight: bolder;
+}
+
+.intro-section {
+    padding: 20px 0px; 
+    line-height: 30px;
+}
+
 .happy-text {
-    margin-left: 50px;
-    padding: 50px 80px;
+    /* margin-left: 50px; */
+        padding: 40px 0px; 
 }
 
 .mission {
@@ -34,6 +49,14 @@
 
 .weare-section {
 
+}
+
+.logo-white {
+    height: 33px;
+}
+
+.logo-about {
+    height: 40px;
 }
 
 
@@ -54,4 +77,8 @@
     border-radius: 5px;
     border: 1px solid #C7D2F44D;
     background: #C7D2F44D;
+}
+
+footer div ul h6, footer div ul li, footer div ul small {
+    margin: 15px;
 }
