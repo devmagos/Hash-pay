@@ -57,15 +57,15 @@
             <!-- HASH NAVBAR LINKS ENDS-->
             
       </nav>
-    </div>
 
     
 
 
     <!-- PAGE STARTS HERE -->
     
-
-    <div class="container">
+<div class="row">
+<div class="col-md-1"></div>
+    <div class="col-md-9">
       
       <!-- VERIFY KYC SECTION -->
           <div class="row verify-text">
@@ -99,18 +99,18 @@
        <div class="row mt-5">
        <div class="row">
 
-        <!-- MODAL SELL SECTION -->
+        <!-- MODAL SELL SECTION STARTS -->
         <!-- Button trigger modal -->
         <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalCenter">
-          <div class="card-body card-body-buy">
+          <div class="card-body card-body-sell">
             <div class="card-margin">
-                <h5 class="card-title">Buy Cryptocurrency</h5>
-                <p class="card-text">Buy crypto to your local currency</p>
+              <h5 class="card-title">Sell Cryptocurrency</h5>
+              <p class="card-text">Sell crypto with your local currency</p>
             </div>
           </div>
 
 
-        <!-- MODAL SELL SECTION -->
+        <!-- MODAL SELL SECTION ENDS -->
    
          </button>
   
@@ -128,61 +128,79 @@
         <div class="modal-body">
 
             <div class="row">
-              <div class="col-md-12 modal-text">
-                <button type="button" class="btn text-secondary btn-outline" data-dismiss="modal">Sell</button>
-             
-                <button type="button" class="btn btn-info btn-outline">Buy</button>
+              <div class="modal-text btn-buy-sell">
+                <button type="button" class="btn text-secondary btn-buy">Sell</button>
+                
+                <button type="button" class="btn-sell" data-dismiss="modal">Buy</button>
               </div>
             </div>
         <!-- </div> -->
        
-         <div class="row modal-text">
+         <div class="row modal-text btc">
             <div class="row">
                 <h2>0 BTC</h2>
             </div>
             <div class="row">
-                <p class="text-sm text-secondary">Estimate price : 1 BTC = N270000</p>
+                <p class="text-secondary modal-price-text">Estimate price : 1 BTC = N270000</p>
             </div>
           </div>
         </div>
 
          <div class="row modal-text">
-          <div class="row modal-footer">
+          <div class="row">
 
               <!-- MODAL DROPDOWN FIRST -->
               <div class="row">
-                <div class="dropdown">
-                  <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="">Sell</span>
-                    <span class="">
-                    <span class="price-icons"><img src="/images/dashboard/bitcoin-o.png" alt="bitcoin"> </span><span>Bitcoin </span><span class="price-sell">Sell</span></span>
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </div>
+                <select class="form-select w-75 select-margin" aria-label="Default select example">
+                  <option selected class="">
+                      <span class="">
+                        <span class="price-sell">Buy</span>
+                      </span>
+
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <span class="bitcoin-margin">
+                          <img src="/images/dashboard/bitcoin-o.png" alt="bitcoin" class="coin-img"></span>
+                          <span class="price-sell">Bitcoin</span>
+                      </span>
+                  </option>
+                  <option value="1">...</option>
+                  <option value="2">✅</option>
+                  <option value="3">❌</option>
+                </select>
               </div>
 
               <!-- MODAL DROPDOWN SECOND -->
-            <div class="row">
-              <div class="dropdown">
-                <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Recieve in
-                  <span class="price-icons"><img src="/images/dashboard/tether.png" alt=""> </span><span>Tether </span><span class="price-sell">Sell</span>
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+              <div class="row">
+                <select class="form-select w-75 select-margin" aria-label="Default select example">
+                  <option selected class="">
+                      <span class="">
+                      <span class="price-sell">Pay With</span>
+                      </span>
+
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      &nbsp;&nbsp;&nbsp;&nbsp;
+                      <span class="price-icons">
+                        <img src="/images/dashboard/tether.png" alt="tether" class="coin-img">
+                      </span>
+                      <span class="price-sell">Naira</span>
+
+                  </option>
+                  <option value="1">...</option>
+                  <option value="2">✅</option>
+                  <option value="3">❌</option>
+                </select>
               </div>
-            </div>
 
             <!-- MODAL DROPDOWN THIRD -->
             <div class="row">
-                <button type="button" class="btn btn-secondary btn-block m-2">Review and confirm</button>
+              <div class="modal-text">
+                <button type="button" class="btn-review">Review and confirm</button>
+              </div>
             </div>
 
         </div>
@@ -214,6 +232,26 @@
       </div>
 
     </div>
+
+
+    <!-- RIGHT COLUMN SECTION STARTS -->
+      
+    <div class="col-md-2">
+      <ul>
+        <li>
+          <a class="active-links-box" href="/Dashboard/Dashboard.html">Profile</a>
+        </li>
+        <li>
+          <a class="not-active" href="/Settings/Settings.html">Settings</a>
+        </li>
+        <li>
+          <a class="not-active" href="/SignOut/SignOut.html">Sign Out</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
 
 
 

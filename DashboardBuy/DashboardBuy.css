@@ -11,6 +11,26 @@
     height: 30px;
 }
 
+div ul li {
+    list-style-type: none;
+}
+
+div ul li a{
+    text-decoration: none;
+}
+
+.active-links-box {
+    background: #C7D2F44D;
+    padding: 5px 25px;
+}
+
+.not-active {
+    opacity: 7;
+    background: #fff;
+    padding: 0 15px;
+}
+
+
 .nav-height {
     background: #2574F5;
     margin-bottom: 20px;
@@ -40,6 +60,63 @@
 
 .modal-text {
     text-align: center;
+    margin: 10px 0px;
+}
+
+.modal-price-text {
+    font-size: 11px;
+}
+
+.price-sell {
+    font-size: 13px;
+}
+
+.btn-buy-sell {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-sell {
+    background: #C7D2F44D;
+    color: #001D4B;
+    padding: 10px 80px;
+    border: none;
+}
+
+.btn-buy {
+    padding: 10px 80px;
+    border: none;
+}
+
+.btn-review {
+    background: #C7D2F44D;
+    color: #001D4B;
+    padding: 15px 0px;
+    margin: 10px 0px 15px 65px;
+    width: 360px;
+    border: none;
+    border-radius: 8px;
+}
+
+.select-margin {
+    margin: 0px 0px 10px 90px;
+}
+
+.coin-img {
+    margin-left: 150px;
+    height: 15px;
+}
+
+.sell-margin {
+    margin-right: 100px;
+}
+
+.bitcoin-margin {
+    margin-left: 100px;
+}
+
+button {
+    background-color: black;
 }
 
 .arrow {
@@ -78,8 +155,8 @@
     bottom: 65px;
 }
 
-.card-body-buy {
-    background: #DDEDE8;
+.card-body-sell {
+    background: #FFD8C2;
 }
 
 .no-transactions {
@@ -87,6 +164,10 @@
     text-align: center;
     font-size: larger;
     font-weight: bold;
+}
+
+.transactions {
+
 }
 
 .bg-color {
