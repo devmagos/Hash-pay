@@ -8,27 +8,35 @@
     font-size: 16px;
 }
 
-.drop-menu {
-    position: relative;
-    top: 50px;
-    right: 20px;
-    border: none;
-}
-
 .avatar {
     height: 30px;
 }
 
-
-.left-col {
-    margin-left: 35px;
-}
 
 .nav-height {
     background: #2574F5;
     margin-bottom: 20px;
     color: #fff;
     height: 50px;
+}
+
+div ul li {
+    list-style-type: none;
+}
+
+div ul li a{
+    text-decoration: none;
+}
+
+.active-links-box {
+    background: #C7D2F44D;
+    padding: 5px 25px;
+}
+
+.not-active {
+    opacity: 7;
+    background: #fff;
+    padding: 0 15px;
 }
 
 .verify-text {
@@ -147,4 +155,8 @@ linear-gradient(0deg, #EFF0F4, #EFF0F4);
 
 .price-icons {
     margin-right: 10px;
+}
+
+.pagination {
+    margin: 100px 0px;
 }
