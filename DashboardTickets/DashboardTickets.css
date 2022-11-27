@@ -158,3 +158,25 @@ linear-gradient(0deg, #EFF0F4, #EFF0F4);
 .pagi-margin {
     margin-left: 10px;
 }
+
+
+
+div ul li {
+    list-style-type: none;
+}
+
+div ul li a{
+    text-decoration: none;
+}
+
+
+.active-links-box {
+    background: #C7D2F44D;
+    padding: 5px 25px;
+}
+
+.not-active {
+    opacity: 7;
+    background: #fff;
+    padding: 0 15px;
+}
