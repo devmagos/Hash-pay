@@ -43,6 +43,48 @@
     text-align: center;
 }
 
+.confirm-buy {
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+.text-start {
+    margin-left: 58px;
+}
+
+.text-end-btc {
+    margin-left: 205px;
+    
+}
+
+.text-end-ngn-1 {
+    margin-left: 245px;
+
+}
+
+.text-end-ngn-2 {
+    margin-left: 240px;
+
+} 
+
+.text-end-ngn-3 {
+    margin-left: 250px;
+
+}
+
+.text-end-naira {
+    margin-left: 150px;
+
+}
+.btn-confirm {
+    color: #001D4B;
+    padding: 15px 0px;
+    margin: 20px 70px;
+    width: 500px;
+    border: none;
+    border-radius: 8px;
+}
+
 .arrow {
     margin-right: 0px;
     padding: 25px 0 25px 25px;
@@ -82,6 +124,12 @@
 .card-body-buy {
     background: #DDEDE8;
 }
+
+.card-body-sell {
+    background: #FFD8C2;
+    /* background: #DDEDE8; */
+}
+
 
 .no-transactions {
     color: grey;
