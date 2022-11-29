@@ -8,6 +8,10 @@
     font-size: 16px;
 }
 
+.logo {
+    height: 30px;
+} 
+
 .drop-menu {
     position: relative;
     top: 50px;
@@ -56,9 +60,53 @@
     text-decoration: none;
 }
 
-.avatar-bg {
-    color: #D9D9D9;
+.avatar-sm {
+    height: 30px;
 }
+
+.avatar-sm {
+    height: 30px;
+}
+
+.avatar-lg {
+}
+
+.side-links {
+    
+}
+
+.modal-text {
+    text-align: center;
+}
+
+.btn-upload {
+    background: #C7D2F44D;
+    color: #5D5C63;
+    padding: 15px 10px;
+    border-radius: 8px;
+    border: none;
+    justify-content: center;
+}
+
+div ul li {
+    list-style-type: none;
+}
+
+div ul li a{
+    text-decoration: none;
+}
+
+.active-links-box {
+    background: #C7D2F44D;
+    padding: 5px 25px;
+}
+
+.not-active {
+    opacity: 7;
+    background: #fff;
+    padding: 0 15px;
+}
+
 
 .active {
     text-decoration: underline;
