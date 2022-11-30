@@ -30,6 +30,17 @@
     height: 30px;
 }
 
+.buttons-naira-kyc {
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    background: #CBE7D7;
+    color: green;
+    border: 0px solid grey;
+    border-radius: 15px;
+    margin-bottom: 11px;
+}
+
 .buttons-kyc {
     text-align: center;
     width: 150px;
@@ -41,10 +52,10 @@
 }
 
 .balance-text {
-    background: #C7D2F44D;
+    background: #CBE7D7;
     color: #001D4B;
     margin-bottom: 20px;
-    padding: 5px 80px;
+    padding: 5px 20px;
     border-radius: 5px;
 }
 
@@ -60,15 +71,24 @@ span img {
     background: #C7D2F44D;
     color: #000;
     margin-bottom: 20px;
-    padding: 5px 80px;
+    padding: 5px 20px;
     border-radius: 5px;
+}
+
+.transaction-text {
+    background: #E9F1FF;
+    color: #000;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+
 }
 
 .wallet-text {
     background: #C7D2F44D;
     color: #001D4B;
     margin-bottom: 20px;
-    padding: 50px 80px;
+    padding: 50px 20px;
     border-radius: 5px;
 }
 
