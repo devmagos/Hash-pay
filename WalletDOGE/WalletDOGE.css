@@ -44,12 +44,27 @@
     background: #C2A63373;
 }
 
+.doge-value {
+    font-weight: bolder;
+}
+
+.buttons-doge-kyc {
+    text-align: center;
+    width: 150px;
+    height: 35px;    
+    background: #C2A63373;
+    color: #522F05;
+    border: 0px solid grey;
+    border-radius: 15px;
+    margin-bottom: 11px;
+}
+
 .balance-text {
     background: #C2A63373;
     font-weight: bolder;
     color: #001D4B;
     margin-bottom: 20px;
-    padding: 5px 80px;
+    padding: 5px 30px;
     border-radius: 5px;
 }
 
@@ -61,11 +76,11 @@ span img {
     height: 20px;
 }
 
-.verify-text {    
+.verify-text {
     background: #DDEDE8;
     color: #000;
     margin-bottom: 20px;
-    padding: 5px 80px;
+    padding: 5px 20px;
     border-radius: 5px;
 }
 
