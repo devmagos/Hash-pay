@@ -34,9 +34,19 @@
     background: #C7D2F44D;
     color: #001D4B;
     margin-bottom: 20px;
-    padding: 5px 80px;
+    padding: 5px 20px;
     border-radius: 5px;
 }
+
+.btn-Update {
+    background: #EBEBEB;
+    color: #5D5C63;
+    padding: 15px 10px;
+    border-radius: 8px;
+    border: none;
+    justify-content: center;
+}
+
 
 .wallet-text {
     background: #C7D2F44D;
@@ -80,7 +90,7 @@
 }
 
 .btn-upload {
-    background: #C7D2F44D;
+    background: #EBEBEB;
     color: #5D5C63;
     padding: 15px 10px;
     border-radius: 8px;
@@ -98,13 +108,13 @@ div ul li a{
 
 .active-links-box {
     background: #C7D2F44D;
-    padding: 5px 25px;
+    padding: 5px 10px 5px 25px;
 }
 
 .not-active {
     opacity: 7;
     background: #fff;
-    padding: 0 15px;
+    padding: 0 25px;
 }
 
 
