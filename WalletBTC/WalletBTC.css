@@ -36,6 +36,17 @@
     height: 35px;
 }
 
+.buttons-btc-kyc {
+    text-align: center;
+    width: 150px;
+    height: 35px;    
+    background: #FFD8C2;
+    color: #522F05;
+    border: 0px solid grey;
+    border-radius: 15px;
+    margin-bottom: 11px;
+}
+
 .buttons-history {
     width: 80px;
 }
@@ -43,10 +54,14 @@
 .balance-text {
     background: #FFD8C2;
     font-weight: bolder;
-    color: #001D4B;
+    color: #522F05;
     margin-bottom: 20px;
-    padding: 5px 80px;
+    padding: 5px 30px;
     border-radius: 5px;
+}
+
+.btc-value {
+    font-weight: bolder;
 }
 
 span {
@@ -61,7 +76,7 @@ span img {
     background: #DDEDE8;
     color: #000;
     margin-bottom: 20px;
-    padding: 5px 80px;
+    padding: 5px 20px;
     border-radius: 5px;
 }
 
@@ -73,7 +88,7 @@ span img {
     background: #C7D2F44D;
     color: #001D4B;
     margin-bottom: 20px;
-    padding: 50px 80px;
+    padding: 50px 20px;
     border-radius: 5px;
 }
 
