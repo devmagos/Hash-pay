@@ -69,11 +69,10 @@
     <!-- PAGE STARTS HERE -->
     
 
-    <div class="container-fluid">
-      
-      <div class="row">
+    <div class="row">
+      <div class="col-md-1"></div>
       <!-- LEFT COLUMN SECTION START -->
-      <div class="col-md-10 left-col">
+      <div class="col-md-9">
      
       <!-- VERIFY KYC SECTION -->
       <div class="verify-text">
@@ -96,17 +95,22 @@
 
   <div class="d-flex justify-content-between">
 
-    <div class="">
-        <button class="btn btn-primary" type="button">All</button>
-        <button class="btn" type="button">Buy</button>
-        <button class="btn" type="button">Sell</button>
-    </div>
+    <div class="d-flex">
+      <a class="" href="/Transaction/Transaction.html">
+        <button class="btn-color btn-width" type="button">All</button>
+      </a>
+      <a class="" href="/TransactionDate/TransactionDate.html">
+        <button class="btn-width" type="button">Buy</button>
+      </a>
+      <a class="" href="/TransactionMain/TransactionMain.html">
+        <button class="btn-width" type="button">Sell</button>
+      </a>
+</div>
 
     
     <div class="">
         <form action="/action_page.php">
             <img src="/images/transactions/🦆 date-range.svg" alt="file searching" srcset="" class="date"> <br><br>       
-            <input type="date" class="birthday" name="birthday">
         </form>
         
     </div>
@@ -215,20 +219,23 @@
        
 
 
-
-
-       
-        <!-- RIGHT DROPDOWN SECTION STARTS-->
-        <div class="col-md-1 dropdown-menu show drop-menu">
-            <a class="dropdown-item active" href="/TransactionDate/TransactionDate.html">Settings</a>
-          <a class="dropdown-item" href="/TransactionMain/TransactionMain.html">Profile</a>
-            <a class="dropdown-item" href="/SignOut/SignOut.html">Sign Out</a>
-        </div>
-    </div>
-
-  </div>
-        <!-- RIGHT DROPDOWN COLUMN SECTION ENDS -->    
-
+   <!-- RIGHT COLUMN SECTION STARTS -->
+      
+   <div class="col-md-2">
+    <ul>
+      <li>
+        <a class="active-links-box" href="/Dashboard/Dashboard.html">Profile</a>
+      </li>
+      <li>
+        <a class="not-active" href="/Settings/Settings.html">Settings</a>
+      </li>
+      <li>
+        <a class="not-active" href="/SignOut/SignOut.html">Sign Out</a>
+      </li>
+    </ul>
+</div>
+        <!-- RIGHT COLUMN SECTION ENDS -->
+        
  
 <!-- ROW ENDS HERE -->
 </div>
