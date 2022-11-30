@@ -69,11 +69,10 @@
     <!-- PAGE STARTS HERE -->
     
 
-    <div class="container-fluid">
-      
-      <div class="row">
+    <div class="row">
+      <div class="col-md-1"></div>
       <!-- LEFT COLUMN SECTION START -->
-      <div class="col-md-10 left-col">
+      <div class="col-md-9">
      
       <!-- VERIFY KYC SECTION -->
       <div class="verify-text">
@@ -96,16 +95,15 @@
 
   <div class="d-flex justify-content-between">
 
-    <div class="">
-        <button class="btn btn-primary" type="button">All</button>
-        <button class="btn" type="button">Buy</button>
-        <button class="btn" type="button">Sell</button>
+    <div class="d-flex">
+        <button class="btn-color btn-width" type="button">All</button>
+        <button class="btn-width" type="button">Buy</button>
+        <button class="btn-width" type="button">Sell</button>
     </div>
 
     
     <div class="">
       <img src="/images/transactions/🦆 date-range.svg" alt="file searching" srcset="" class="date">
-        
     </div>
   </div>
 
@@ -115,45 +113,34 @@
    <div class="row empty-transactions">
     <div class="row file-transactions">
       <img src="/images/transactions/file.svg" alt="file searching" srcset="" class="file">
-    </div>
-
-    <div class="row mt-3 mb-5 no-transactions">
-      <table class="table table-hover">
-        <thead class="bg-color"></thead>
-        <tbody>
-          <tr>
-            <h4 class="">When you start using your wallet, transactions will show here
-            </h4>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+        <p class="m-3">When you start using your wallet, transactions will show here</p>
+      </div>
 
     </div>
   
 </div>     
 
-       
 
-
-
-
-       
-        <!-- RIGHT DROPDOWN SECTION STARTS-->
-        <div class="col-md-1 dropdown-menu show drop-menu">
-          <a class="dropdown-item active" href="/TransactionMain/TransactionMain.html">Profile</a>
-          <a class="dropdown-item" href="/TransactionDate/TransactionDate.html">Settings</a>
-            <a class="dropdown-item" href="/SignOut/SignOut.html">Sign Out</a>
-        </div>
-    </div>
-
-  </div>
+   <!-- RIGHT COLUMN SECTION STARTS -->
+      
+   <div class="col-md-2">
+    <ul>
+      <li>
+        <a class="active-links-box" href="/Dashboard/Dashboard.html">Profile</a>
+      </li>
+      <li>
+        <a class="not-active" href="/Settings/Settings.html">Settings</a>
+      </li>
+      <li>
+        <a class="not-active" href="/SignOut/SignOut.html">Sign Out</a>
+      </li>
+    </ul>
+</div>
         <!-- RIGHT DROPDOWN COLUMN SECTION ENDS -->
         
+    </div>
+  </div>
  
 <!-- ROW ENDS HERE -->
-</div>
-</div>
-</div>
 </body>
 </html>

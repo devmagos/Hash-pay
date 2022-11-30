@@ -15,8 +15,20 @@
     border: none;
 }
 
-.left-col {
-    margin-left: 35px;
+.btn-width {
+    width: 100px;
+    height: 30px;
+    border: 0px solid grey;
+    border-radius: 15px;
+    margin: 5px;
+    color: #8C8B90;
+    background-color: #eee;
+
+}
+
+.btn-color {
+    color: #fff;
+    background: #2574F5;
 }
 
 .avatar {
@@ -105,4 +117,23 @@ linear-gradient(0deg, #EFF0F4, #EFF0F4);
 
 .file {
     height: 50px;
+}
+
+div ul li {
+    list-style-type: none;
+}
+
+div ul li a{
+    text-decoration: none;
+}
+
+.active-links-box {
+    background: #C7D2F44D;
+    padding: 5px 25px;
+}
+
+.not-active {
+    opacity: 7;
+    background: #fff;
+    padding: 0 25px;
 }
