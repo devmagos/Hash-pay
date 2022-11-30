@@ -9,7 +9,6 @@
 }
 
 .form-div {
-    border: 0.3px solid grey;
     text-align: center;
     padding: 60px;
     display: flex;
@@ -23,6 +22,14 @@
     margin: auto auto ;
 }
 
+.createacct {
+    font-weight: bolder;
+}
+
+.signin {
+    text-decoration: none;
+}
+
 .hash-text {
     color: #2574F5;
 }
@@ -33,4 +40,5 @@
 
 .form-padding {
     padding: 4px 90px;
+    margin: 5px 0px;
 }
