@@ -44,8 +44,13 @@
 }
 
 .easy {
-    font-size: 56px;
-    line-height: 58px;
+    font-family: Plus Jakarta Sans;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    
 }
 
 .hash {
@@ -53,6 +58,13 @@
     line-height: 40px;
     width: 731px;
     height: 120px;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 .list {
@@ -63,14 +75,54 @@
     padding: 80px;
 }
 
+.mobileimgs {
+
+}
+
 .clip-mobile {
     margin-right: 10px;
 }
+
 .clip {
     position: absolute;
     right: 150px;
     top: 175px;
     z-index: 1;
+}
+
+.getstarted {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #2574F5;
+    color: #FFFFFF;
+    height: 64px;
+    width: 239px;
+    left: 0px;
+    top: 364px;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 32px 16px 32px;
+}
+
+.playstore {
+    height: 49.9825439453125px;
+    width: 169.04800415039062px;
+    left: 0.5px;
+    top: 0.0091552734375px;
+    border-radius: 0px;
+}
+
+.applestore {
+    height: 50px;
+    width: 169px;
+    left: 0.5px;
+    top: 0px;
+    border-radius: 0px;
+
 }
 
 .why-qualities {
@@ -84,6 +136,7 @@
 
 .hash-qualities {
     padding: 50px;
+    text-align: justify;
 }
 
 .hash-text {
@@ -94,14 +147,31 @@
 }
 
 .hash-para {
-    font-size: 18px;
-    padding: 5px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
-.why-hash {
-    text-align: center;    
+.why-hash, .hash-text {
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
 }
-
+.easyuse {
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
 
 .crypto-section {
     padding: 0px 0px 0px 100px;
@@ -116,18 +186,41 @@
 }
 
 .crypto-h {
-    font-size: 3.5rem;
-    line-height: 80px;
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .crypto-para {
-    font-size: 1.4rem;
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-weight: 400;
     line-height: 40px;
-    margin-bottom: 40px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .crypto-btn {
     margin-top: 5px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #2574F5;
+    color: #fff;
+    height: 64px;
+    width: 260px;
+    left: 173px;
+    top: 376.3193359375px;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 32px 16px 32px;
+
 }
 
 .img-crypto-mobile1 {
@@ -149,7 +242,7 @@
     margin: 0px;
     padding: 0px;
     bottom: 0px;
-    right: 0px;
+    right: 250px;
     top: 0px;
     z-index: -1;
 }
@@ -169,10 +262,21 @@
 }
 
 .news-text-h {
-font-size: 2.5rem;
+    font-family: Plus Jakarta Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
 .news-text-p {
+    font-family: Plus Jakarta Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
 .news-search {
@@ -180,12 +284,24 @@ font-size: 2.5rem;
 }
 
 .news-search-div {
-    border-radius: 10px;
+    height: 80px;
+    top: 200px;
+    border-radius: 12px;
+    padding: 8px 16px;
 }
 
 .news-search-input {
     background: #fff;
     border: none;
+}
+
+.news-search-input::placeholder {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: right;
 }
 
 .news-left, .news-right {
@@ -207,8 +323,48 @@ font-size: 2.5rem;
 .list, .list li a{
     list-style-type: none;
     text-decoration: none;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 div ul h6, div ul li {
     padding: 8px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
 }
+
+/* RESPONSIVE MEDIA QUERIES */
+
+/* If the screen size is 601px or more */
+@media only screen and (min-width: 601px) {
+    .clip-mobile {
+    }
+    
+    .clip {
+    }
+  }
+  
+  /* If the screen size is 600px or less */
+  @media only screen and (max-width: 600px) {
+    .clip-mobile {
+        margin-left: 50PX;
+    }
+    
+    .clip {
+        position: absolute;
+        left: 15px;
+        top: 975px;
+        z-index: 1;
+    }
+    .img-crypto-icons {
+    }
+    
+  }
