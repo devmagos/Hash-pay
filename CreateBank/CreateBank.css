@@ -8,8 +8,15 @@
     font-size: 16px;
 }
 
+.hashlogo {
+    margin-bottom: 18px;
+}
+
+.logo {
+    height: 50px;
+}
+
 .form-div {
-    border: 0.3px solid grey;
     text-align: center;
     padding: 100px;
     display: flex;
@@ -28,9 +35,24 @@
 }
 
 .sign-in {
-    font-size: smaller;
+    font-size: 11px;
 }
 
 .form-padding {
-    padding: 4px 90px;
+    padding: 8px 90px;
+}
+
+.banktext {
+    margin-bottom: 15px;
+}
+
+.bankverify {
+    font-weight: bolder;
+}
+
+.bankselect {
+    padding: 8px;
+    border-radius: 5px;
+    border: 0.2px solid rgb(194, 193, 193);
+    color: rgb(99, 97, 97);
 }

@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CreateBank.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <title>Create Bank <Details></Details></title>
+    <title>Create Bank</title>
 </head>
 <body>
     <div class="form-div-width">
     <div class="container form-div">
-        <div class="row">
+        <div class="row hashlogo">
             <a href="/index.html">
-                <img src="/images/createbank/logo.svg" alt="Hash pay" class="logo-white">
+                <img src="/images/createbank/logo.svg" alt="Hash pay" class="logo">
               </a>
         </div>
-        <div class="row">
-            <p>Bank verification</p>
+        <div class="row banktext">
+            <h6 class="bankverify">Bank verification</h6>
         </div>
         <div class="row">
             <p class="sign-in">You must verify your bank account to verify this platform</p>
@@ -30,7 +30,12 @@
                   <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Account Name">
                 </div>
                 <div class="row form-padding">
-                  <input type="select" class="form-control" id="Password" placeholder="Select Bank">
+                  <select class="bankselect">
+                    <option class="selecttext">Select Bank</option>
+                    <option>uba</option>
+                    <option>gtb</option>
+                    <option>acess</option>
+                  </select>
                 </div>
                 <div class="row form-padding">
                     <button type="button" class="btn btn-primary btn-sm btn-block">Proceed</button>
