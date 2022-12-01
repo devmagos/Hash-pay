@@ -5,79 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Kyc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <title>Create Bank <Details></Details></title>
+    <title>KYC</title>
 </head>
 <body>
-       <!-- NAVBAR SECTION -->
-       <div class="row">
-        <!-- NAVBAR SECTION STARTS HERE -->
-<nav class="navbar nav-height navbar-expand-sm">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- CONTAINER STARTS -->
+  <div class="container-fluid">
+         <!-- NAVBAR SECTION -->
+         <div class="row">
+          <!-- NAVBAR SECTION STARTS HERE -->
+          <nav class="navbar nav-height navbar-expand-sm">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <!-- CONTAINER STARTS -->
 
-    <div class="container">
-    <div class="row pt-3">
-          <!-- HASH PAY LOGO -->
-    <div class="col-md-4">
-      <img src="/images/wallet/haspay-logo-white.svg" alt="avatar" class="avatar">
-    </div>
-      <!-- HASH PAY LOGO ENDS -->
+              <div class="container">
+              <div class="row pt-3">
+                    <!-- HASH PAY LOGO -->
+              <div class="col-md-4">
+                <a href="/index.html">
+                  <img src="/images//kyc/haspay-logo-white.svg" alt="hash pay logo" class="avatar">
+                </a>
+              </div>
+                <!-- HASH PAY LOGO ENDS -->
 
-      <!-- HASH NAVBAR LINKS BEGIN-->
+                <!-- HASH NAVBAR LINKS BEGIN-->
 
-      <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
 
-        <div class="col-md-4">
-          <ul class="d-flex justify-content-around list">
-            <li class="nav-item active">
-              <a class="nav-link"href="../Dashboard/Dashboard.html">Dashboard</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="/WalletNaira/WalletNaira.html">Wallet</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../Transaction/Transaction.html">Transaction</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../User/User.html">
-                <img src="/images/wallet/avatar.svg" alt="avatar" class="avatar">
-              </a>
-            </li>
-          </ul>
-        </div>
+                  <div class="col-md-4">
+                    <ul class="d-flex justify-content-around list">
+                      <li class="nav-item active">
+                        <a class="nav-link"href="../Dashboard/Dashboard.html">Dashboard</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="/WalletNaira/WalletNaira.html">Wallet</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../Transaction/Transaction.html">Transaction</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../User/User.html">
+                          <img src="/images/kyc/avatar.svg" alt="avatar" class="avatar">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
 
-        <!-- HASH NAVBAR LINKS ENDS-->
+                  <!-- HASH NAVBAR LINKS ENDS-->
+                  
+            </nav>
+  </div>
 
+  <div class="row">
+  <!-- BODY OVERALL BLUE BACKGROUND -->
+<div class="page-color">
         
     <div class="form-div-width">
     <div class="container form-div">
-        <div class="row">
+        <div class="row icon">
           <a href="/index.html">
-            <img src="/images/createacct/logo.svg" alt="avatar" class="avatar">
+            <i class='fa fa-arrow-left'></i>
           </a>
         </div>
-        <div class="row">
-            <p>Confirm Your Identity</p>
+        <div class="row verifytext">
+            <h5>Let’s verify your identity</h5>
         </div>
         <div class="row signin-div">
-            <p class="signin-text">Enter the six digoit verification code sent to your email address</p>
+            <p class="signin-text">To get verified, you will need to:</p>
         </div>
 
+        
             <!-- FORM SECTION -->
             
-             <form class="p-3 form-text">
-                <div class="row form-padding">
-                  <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="password">
+            <form class="p-3 form-text">
+
+                <!-- TEXT SECTION -->
+                <div class="formtext">
+                  <div class="">
+                    <h6>Country</h6>
+                    <p class='text'>Select the country you are from</p>
+                  </div>
+                  <div class="">
+                    <h6>Identity document</h6>
+                    <p class='text'>Upload a photo of your ID showing where you’re from</p>
+                  </div>
+                  <div class="">
+                    <h6>Photo</h6>
+                    <p class='text'>Upload a portrait photo of your face (a selfie)</p>
+                  </div>
                 </div>
-                <div class="row form-padding">
-                    <button type="button" class="btn btn-primary btn-sm btn-block">Confirm</button>
+
+                <div class="row">
+                    <button type="button" class="btn btn-primary btn-md col-sm-11 m-3">Let’s Go</button>
                 </div>
               </form>
-    </div>
+            </div>
+          </div>
+          <div class="patterndiv">
+            <img src="/images/kyc/pattern.svg" alt="icon pattern" class="pattern">
+          </div>
+        </div>
+</div>
 </div>
 
 

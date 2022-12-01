@@ -2,29 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Plus Jakarta Sans';
-    font-style: normal;
+   /* font-family: 'Plus Jakarta Sans';
+    font-style: normal; */
     font-weight: 500;
     font-size: 16px;
 }
 
-body {
-    background-color: #2574F5;
+.page-color {
+    background: #001D4B;
+    padding: 110px;
+}
+
+h6, h5 {
+    font-weight: bolder;
+}
+
+.text {
+    font-size: 11px;
+}
+
+.icon a i {
+    color: #000;
+    justify-content: left;
+    padding: 25px 0px 0px 25px;
+}
+
+.formtext {
+    text-align: justify;
+    padding-left: 10px;
+    color: #000;
 }
 
 .form-div {
-    border: 0.3px solid grey;
-    text-align: center;
-    padding: 100px;
+    margin: 0 auto;
     display: flex;
+    border-radius: 5px;
     flex-direction: column;
     background: #fff;
 }
 
 .form-div-width {
-    width: 700px;
-    padding: 60px;
-    margin: auto auto ;
+    width: 340px;
+    margin: 0 auto;
+}
+
+.verifytext {
+    text-align: center;
 }
 
 .hash-text {
@@ -36,12 +59,14 @@ body {
 }
 
 .signin-div {
-    padding: 0 80px;
+    /* padding: 0 60px; */
+    text-align: center;
 }
 
 .signin-text {
     font-size: smaller;
 }
+
 .form-padding {
     padding: 4px 90px;
 }
@@ -50,9 +75,7 @@ body {
 
 .dash-section {
     line-height: 28px;
-    /* identical to box height, or 175% */
     text-align: center;
-    /* Neutral colour/100 */
     color: #47454C;
     background: #47454C;
 }
@@ -67,6 +90,12 @@ body {
     background: #2574F5;
     box-shadow: 0px 4.2223px 8.4446px rgba(0, 0, 0, 0.06), 0px 4.2223px 12.6669px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+
+.nav-height {
+    background: #2574F5;
+    color: #fff;
+    height: 50px;
 }
 
 .avatar {
@@ -92,6 +121,7 @@ body {
 .clip-mobile {
     /* opacity: 0.6; */
 }
+
 .clip {
     position: absolute;
     right: 150px;
@@ -196,4 +226,10 @@ body {
 .list, .list li a{
     list-style-type: none;
     text-decoration: none;
+}
+
+.patterndiv {
+    position: relative;
+    bottom: 170px;
+    right: 110px;
 }
