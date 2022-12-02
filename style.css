@@ -10,11 +10,19 @@
 
 .dash-section {
     line-height: 28px;
-    /* identical to box height, or 175% */
     text-align: center;
-    /* Neutral colour/100 */
     color: #47454C;
     background: #47454C;
+}
+
+.nav-section {
+    background: #EBEBEB;
+    border: 1px solid #EBEBEB;
+}
+
+.navbar {
+    background: #EBEBEB;
+    border: 1px solid #EBEBEB;
 }
 
 .nav-btn {
@@ -22,11 +30,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16px 32px;
     gap: 10px;
-    /* Primary colour/main */
     background: #2574F5;
-    /* shadow/base */
     box-shadow: 0px 4.2223px 8.4446px rgba(0, 0, 0, 0.06), 0px 4.2223px 12.6669px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -50,11 +55,9 @@
     line-height: 78px;
     letter-spacing: 0em;
     text-align: left;
-    
 }
 
 .hash {
-    font-size: 22px;
     line-height: 40px;
     width: 731px;
     height: 120px;
@@ -174,15 +177,16 @@
 }
 
 .crypto-section {
-    padding: 0px 0px 0px 100px;
     background: #C7D2F44D;
 }
 
-.crypto-section-padding {
-    padding: 90px 0px 0px 100px;
+.crypto-section .crypto-section-padding {
+    padding: 114px 65px;
 }
 
 .crypto-margin {
+    display: flex;
+    j
 }
 
 .crypto-h {
@@ -224,27 +228,24 @@
 }
 
 .img-crypto-mobile1 {
-    position: absolute;
-    padding: 124px 0px 0px 0px;
-    right: 200px;
-    z-index: 3;
+    /* position: absolute; */
+    padding: 100px 0px 0px 0px;
+    /* right: 230px;
+    z-index: 3; */
 }
 
 .img-crypto-mobile2 {
-    position: absolute;
-    padding: 121px 0px 0px 0px;
-    right: 57px;
-    z-index: 2;
+    /* position: relative; */
+    padding: 100px 0px 0px 0px;
+    /* right: -200px;
+    z-index: 2; */
 }
 
 .img-crypto-icons {
-    position: absolute;
-    margin: 0px;
-    padding: 0px;
-    bottom: 0px;
-    right: 250px;
+    /* position: relative; */
+    /* right: -250px;
     top: 0px;
-    z-index: -1;
+    z-index: 1; */
 }
 
 .news-section-bg {
@@ -277,6 +278,7 @@
     line-height: 40px;
     letter-spacing: 0em;
     text-align: center;
+    color: #001D4B;
 }
 
 .news-search {
@@ -364,7 +366,26 @@ div ul h6, div ul li {
         top: 975px;
         z-index: 1;
     }
-    .img-crypto-icons {
-    }
     
+.hash {
+    line-height: 40px;
+    width: 330px;
+    height: 200px;
+}
+
+
+.playstore {
+    height: 29;
+    width: 69;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.applestore {
+    right: 5px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+
   }
